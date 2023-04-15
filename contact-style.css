@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', cursive;
+
+}
+
+.contact-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-top: 70px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+
+}
+
+.location{
+    background-color: lavenderblush;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.location h2{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.location p{
+    padding-top: 10px;
+}
+
+.follow{
+    padding-top: 150px;
+}
+
+.follow a{
+    color:darkmagenta;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.follow a:hover{
+    color: red;
+    transition: all ease 0.5s;
+}
+
+.follow p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.follow ul li {
+    padding-top: 25px;
+    justify-content: space-between;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.contact-form{
+    background-color: lavender;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+span{
+    color: red;
+}
+
+.contact-form input{
+    text-align: center;
+    margin: 20px;
+    background-color: ghostwhite;
+    padding: 8px 35px;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-form input:hover{
+    background-color: lavender;
+}
+
+.contact-form textarea{
+    background-color: ghostwhite;
+    padding: 8px 35px;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 25px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-form textarea:hover{
+    background-color: lavender;
+    padding: 8px 35px;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 25px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 16px;
+}
